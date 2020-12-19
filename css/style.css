@@ -1,0 +1,42 @@
+body {
+    font-size: 16px;
+    background-color: rgb(14, 140, 250);
+    font-family: 'Roboto', sans-serif;
+}
+/**HEADER**/
+#header_nav {
+    border-radius: 0;
+    border: 0;
+}
+
+.container-fluid {
+    background-color: darkgoldenrod;
+    padding: 10px 15px;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+    text-decoration: none;
+}
+#logo-img {
+    font-size: 2.2em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header .pull-left {
+    margin-left: 15px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
+    border: 1px solid rgb(14, 140, 250);
+}
+
+#nav-list a{
+    color: rgb(14, 140, 250);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
