@@ -9,14 +9,12 @@ body {
     border: 0;
 }
 
-
-
 .container-fluid {
     background-color: darkgoldenrod;
-    padding: 10px 15px;
+    padding: 0px 15px;
 }
 div .container {
-    background-color: rgb(190, 188, 188);
+    background-color: rgb(247, 241, 241);
     min-height: 1000px;
     padding: 10px 15px; 
     margin: 0px auto;
@@ -34,16 +32,12 @@ div .container {
 .navbar-header .pull-left {
     margin-left: 15px;
 }
-.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
-    border: 1px solid rgb(14, 140, 250);
-}
+
 
 #nav-list a{
-    color: rgb(14, 140, 250);
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
-    text-shadow: 1px 1px 1px #222;
 }
 
 #nav-list a:hover {
@@ -58,8 +52,9 @@ h1 .title {
   }
 
  div .collapsable-nav {
-      background-color: cyan;
+      background-color: rgb(14, 160, 160);
   }
+
 .menu-title{
     font-weight: bold;
     font-size: 1.2em;
@@ -69,14 +64,13 @@ h1 .title {
 
 .row, .col-xs-12{
     padding: 15px;
-    margin: 0 ;
+    margin: 0 auto;
 }
 
 /********** Small devices only **********/
 @media (max-width: 768px) {
     /* Home Page */
     div.col-xs-12 {
-        margin: 0 auto;
         max-width: 500px;
         float: none;
     }
@@ -86,11 +80,15 @@ h1 .title {
     }
 
     li a {
-        background-color: floralwhite;
+        background-color: rgb(247, 241, 241);
         border-bottom: 1px solid black;
     }
     
     /* End Home Page */
+
+    nav #header-nav {
+        height: 500px;
+    }
   }
   
 
