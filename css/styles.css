@@ -9,17 +9,11 @@ body {
     border: 0;
 }
 
-.container-fluid {
+header nav div.container-fluid {
     background-color: darkgoldenrod;
-    padding: 0px 15px;
+    padding: 15px 15px;
 }
-div .container {
-    background-color: rgb(247, 241, 241);
-    min-height: 1000px;
-    padding: 10px 15px; 
-    margin: 0px auto;
-    width: 100%;
-}
+
 
 .navbar-header a:hover, .navbar-header a:focus {
     text-decoration: none;
@@ -51,32 +45,57 @@ h1 .title {
     margin-bottom: 30px;
   }
 
- div .collapsable-nav {
+div.category-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.collapsable-nav {
       background-color: rgb(14, 160, 160);
   }
 
-.menu-title{
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  /**Main Content**/
+
+#menu-title{
+      margin-top: 0px;
+      margin-bottom: 15px;
+  }
+
+#main-content{
+    min-height: 1000px;
+    width: 100%;
 }
 
-.row, .col-xs-12{
-    padding: 15px;
-    margin: 0 auto;
+
+.row{
+    padding-left: 10px;
+    padding-right: 10px;
 }
+.col-lg-4{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.category-title  {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.inside-container {
+    background-color: cornsilk;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 1000px;
+}
+
+
+
 
 /********** Small devices only **********/
 @media (max-width: 768px) {
     /* Home Page */
-    div.col-xs-12 {
+    .col-xs-12 {
         max-width: 500px;
-        float: none;
-    }
-
-    .section div div .container-fluid{
-        margin: 0 auto;
     }
 
     li a {
